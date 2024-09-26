@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    background: linear-gradient(#caf0f8, #0077b6);
+}
+
+#header{
+    background-image: url(images/forty-hall.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    gap: 10px;
+}
+
+h1{
+    background: #caf0f8;
+    text-shadow: 0 0 1px black;
+}
+
+h2{
+    background: #90e0ef;
+    width: 500px;
+    text-shadow: 0 0 1px black;
+}    
+
+h1,h2{
+    margin: 0;
+    color: white;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+#activity{
+    background: #f5dddd;
+    margin-top: 0px;
+    overflow:hidden
+}
+
+#activities-header{
+    margin: 40px auto;
+    width: auto;
+}
+
+#activities-container {
+    display: flex;
+    justify-content: space-evenly; /* Align activities side by side */
+}
+
+.spots {
+    width: 30%; /* Adjust width to fit within the container */
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+}
+
+.bold{
+    font-weight: bold;
+    width: 250px;
+
+}
+
+.round{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    
+}
+
+.describe{
+    width: 350px;
+}
+
+.spots{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: 400px;
+}
+
+#container-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #0077b6;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 800px;
+}
+
+
+.self-pic{
+    border-radius:20px;
+    height: 300px;
+}
+
+.italic{
+    font-style: italic;
+}
+
+#brief_intro{
+    padding: 30px;
+}
