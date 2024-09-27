@@ -50,11 +50,11 @@ h1,h2{
 
 #activities-container {
     display: flex;
-    justify-content: space-evenly; /* Align activities side by side */
+    justify-content: space-evenly;
 }
 
 .spots {
-    width: 30%; /* Adjust width to fit within the container */
+    width: 30%;
 }
 
 #container{
@@ -65,14 +65,12 @@ h1,h2{
 .bold{
     font-weight: bold;
     width: 250px;
-
 }
 
 .round{
     width: 120px;
     height: 120px;
-    border-radius: 50%;
-    
+    border-radius: 50%;  
 }
 
 .describe{
